@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name ="description" content = "Web Profile">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mona+Sans:wght@200..900&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>About Me | Kaique Rocha</title>
+    </head>
+    <body>
+
+        <header>
+            <nav class="navbar navbar-expand-lg custom-navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Kaique Rocha</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" href="about_me.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    </ul>
+
+                </div>
+            </div>
+            </nav>
+            <main class="container my-5">
+                <section class = "about-hero">
+
+                    <img src="images/eu.jpeg" alt="Kaique" class="profile-photo">
+
+                    <div class = "about-text">
+                    <h1>Who I am</h1>
+                    <p>
+                        Hello! My name is Kaique Rocha, and I am a Systems Analysis and Development
+                        student passionate about programming and technology.
+                        I enjoy building projects, solving problems, and automating processes through software.
+                        I am always looking for opportunities to learn new technologies, improve my skills,
+                        and grow as a future backend developer.
+                    </p>
+                    </div>
+
+                </section>
+                <section class = "journey">
+                    <div class = "journey-title">
+                    <h2>My Journey</h2>
+                    </div>
+
+                    <div class="journey-card">
+                    <p>
+                        My interest in technology began when I was a child.
+                        I was always curious about how things worked, from computers and the internet to televisions and video games.
+                        This curiosity gradually grew into a genuine passion for technology and innovation. In 2020, during the COVID-19 pandemic,
+                        I discovered programming and careers in Information Technology while watching videos on YouTube.
+                        From that moment on, I realized that software development was the path I wanted to pursue.
+                        Since then, I have been dedicated to learning new technologies, improving my programming skills, and building projects that challenge me to grow as a developer.
+                    </p>
+                    </div>
+
+                </section>
+                <section class="about-grid">
+
+                    <div class = "about-card">
+                    <h2> Education</h2>
+                    <div class="info-item">
+                            <h4>FATEC</h4>
+                            <p>Systems Analysis and Development</p>
+
+                    </div>
+                    <div class="info-item">
+                        <h4>Harvard University</h4>
+                        <p>CS50 - Introduction to Computer Science</p>
+                    </div>
+
+                    <div class="info-item">
+                        <h4>IFSP</h4>
+                        <p>Computer Networks Technical Course</p>
+                    </div>
+                </div>
+
+                <div class = "about-card">
+                        <h2>My Interest</h2>
+                        <div class="info-item">
+                            Backend Development
+                        </div>
+
+                        <div class="info-item">
+                            Software Engineering
+                        </div>
+
+                        <div class="info-item">
+                            Database Systems
+                        </div>
+
+                        <div class="info-item">
+                            Cybersecurity
+                        </div>
+
+                        <div class="info-item">
+                            Problem Solving
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+                <section class = "career">
+
+                    <div class="career-card">
+                        <h2>Career Goals</h2>
+
+                        <p>
+                        My goal is to become a backend software developer,
+                        continuously improve my programming skills, and contribute
+                        to projects that create real value for people and businesses.
+                        </p>
+
+                    </div>
+                </section>
+                <section class = "beyond">
+
+                    <div class = "beyond-title">
+
+                        <h2>Beyond Programming</h2>
+
+                    </div>
+
+                    <div class = "beyond-text">
+
+                        <p>
+                            Outside of programming, I enjoy going to the gym, playing video games, studying philosophy,
+                            learning about game development, exploring new technologies, and brainstorming ideas for future projects.
+
+                            I also have a cat who often keeps me company while I study and code.
+                            Sometimes, when I'm stuck trying to solve a bug, I jokingly use
+                            him as my "rubber duck" to explain my code step by step.
+                        </p>
+
+                    </div>
+                </section>
+
+                <button id="catButton" class="btn btn-outline-primary">
+                    Meet My Debugging Assistant 🐱
+                </button>
+
+                <div id="catSection" class="img-cat">
+                    <img src="images/cat.jpeg" alt="My cat" width="300">
+
+                    <p id="catText"></p>
+                </div>
+            </main>
+        <footer class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-info">
+                <h3>Kaique Rocha</h3>
+
+                <p>Future Backend Developer</p>
+
+            </div>
+
+            <div class="footer-links">
+
+                <h4>Navigation</h4>
+
+                <ul>
+
+                    <li><a href="index.html">Home</a></li>
+
+                    <li><a href="about_me.html">About</a></li>
+
+                    <li><a href="projects.html">Projects</a></li>
+
+                    <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <p class="copyright">
+            &copy 2026 Kaique Rocha. Built with HTML, CSS, Bootstrap and JavaScript.
+        </p>
+
+    </footer>
+    </body>
+
+    <script src="script.js"></script>
+</html>
